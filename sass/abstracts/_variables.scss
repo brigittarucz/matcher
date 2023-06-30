@@ -1,0 +1,52 @@
+$color-lightblue: #f6f9fc;
+$color-darkblack: #050505;
+$color-lightgrey: #f2f2f2;
+$color-mediumgrey: #a8a8a8;
+$color-darkgrey: #2f2f2f;
+$color-violet: #5e72e4;
+$color-white: #ffffff;
+
+$font-RobotoMedium: "Roboto Medium";
+$font-RobotoRegular: "Roboto Regular";
+
+$text-l: 2rem;
+$text-m: 1.8rem;
+$text-s: 1.6rem;
+
+$margin-m: 2rem;
+$margin-s: 1.5rem;
+$margin-xs: 1rem;
+$margin-xss: 0.5rem;
+
+$padding-m: 2rem;
+$padding-s: 1.5rem;
+$padding-xs: 1rem;
+$padding-xss: 0.5rem;
+
+$shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+
+.text-h1 {
+  font-family: $font-RobotoMedium;
+  text-transform: capitalize;
+  font-size: $text-l;
+  color: $color-darkblack;
+}
+
+.text-h2 {
+  font-family: $font-RobotoMedium;
+  text-transform: capitalize;
+  font-size: $text-l;
+  color: $color-darkblack;
+}
+
+.text-p {
+  font-family: $font-RobotoRegular;
+  font-size: $text-m;
+  color: $color-darkgrey;
+}
+
+.text-li {
+  font-family: $font-RobotoRegular;
+  font-size: $text-s;
+  color: $color-darkgrey;
+}
