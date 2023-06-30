@@ -1,0 +1,24 @@
+@mixin mobile {
+  @media screen and (min-width: 365px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: 600px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 1250px) {
+    @content;
+  }
+}
+
+@mixin pointer {
+  &:hover {
+    cursor: pointer;
+    @content;
+  }
+}
