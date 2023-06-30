@@ -1,0 +1,42 @@
+.matcher {
+  box-shadow: $shadow;
+  width: 35rem;
+  border-radius: 0.75rem;
+  padding: $padding-m;
+
+  &_header {
+    h1 {
+      margin-bottom: $margin-xs;
+      text-align: center;
+    }
+
+    hr {
+      border: 1px solid $color-lightgrey;
+    }
+  }
+
+  &_content {
+    margin: $margin-xs 0;
+
+    &-numbers {
+      padding: $padding-xs;
+      border: 2px solid $color-mediumgrey;
+      border-radius: 0.5rem;
+      text-align: center;
+      width: 100%;
+    }
+
+    &-buttons {
+      margin: $margin-m;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  &_results {
+    ul {
+      margin: $margin-xs $margin-s;
+    }
+  }
+}

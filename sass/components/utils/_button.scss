@@ -1,0 +1,22 @@
+.button {
+  font-family: $font-RobotoRegular;
+  text-transform: capitalize;
+  font-size: $text-m;
+  border: 1px solid $color-violet;
+  padding: $padding-xss;
+  border-radius: 0.5rem;
+  width: 25rem;
+  margin: $margin-xss;
+
+  @include pointer;
+
+  &--filled {
+    background-color: $color-violet;
+    color: $color-white;
+  }
+
+  &--outline {
+    background-color: $color-white;
+    color: $color-violet;
+  }
+}
